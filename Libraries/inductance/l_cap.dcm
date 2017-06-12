@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L_cap
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+#End Doc Library
