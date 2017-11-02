@@ -486,7 +486,6 @@ $EndComp
 Wire Wire Line
 	1750 5400 1750 5700
 NoConn ~ 1550 5700
-NoConn ~ 1950 5700
 Wire Wire Line
 	1650 6300 1650 6950
 $Comp
@@ -561,7 +560,6 @@ $EndComp
 Wire Wire Line
 	3050 5400 3050 5700
 NoConn ~ 2850 5700
-NoConn ~ 3250 5700
 Wire Wire Line
 	2950 6300 2950 7100
 $Comp
@@ -636,7 +634,6 @@ $EndComp
 Wire Wire Line
 	4350 5400 4350 5700
 NoConn ~ 4150 5700
-NoConn ~ 4550 5700
 Wire Wire Line
 	4250 6950 4250 6300
 $Comp
@@ -982,7 +979,7 @@ Wire Wire Line
 Text Notes 4900 6000 0    79   ~ 16
 All 3 coax SMA\n(to chassis bulhead ut141/N connectors)
 Text Notes 7000 1100 0    79   ~ 16
-All 5 external coax SMA connectors\n(to chassis bulkhead SMA)\n\nInternal coax Vertical or angle PCB SMA
+All 5 external coax SMA connectors\n(to chassis bulkhead SMA or N)\n\nInternal coax Vertical or angle PCB SMA
 $Comp
 L L_cap L6
 U 1 1 593F9422
