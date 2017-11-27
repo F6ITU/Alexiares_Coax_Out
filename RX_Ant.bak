@@ -979,7 +979,7 @@ Wire Wire Line
 Text Notes 4900 6000 0    79   ~ 16
 All 3 coax SMA\n(to chassis bulhead ut141/N connectors)
 Text Notes 7000 1100 0    79   ~ 16
-All 5 external coax SMA connectors\n(to chassis bulkhead SMA)\n\nInternal coax Vertical or angle PCB SMA
+All 5 external coax SMA connectors\n(to chassis bulkhead SMA or N)\n\nInternal coax Vertical or angle PCB SMA
 $Comp
 L L_cap L6
 U 1 1 593F9422

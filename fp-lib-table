@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name Ferrite_LC_NFM41P)(type KiCad)(uri "$(KIPRJMOD)/Modules/Ferrite_LC_NFM41P.pretty")(options "")(descr ""))
   (lib (name conn_kk100)(type KiCad)(uri "$(KIPRJMOD)/Modules/conn_kk100.pretty")(options "")(descr ""))
   (lib (name conn_rf)(type KiCad)(uri "$(KIPRJMOD)/Modules/conn_rf.pretty")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-update=23/08/2017 11:11:00
+update=07/11/2017 09:16:44
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=79
 [eeschema]
 version=1
 LibDir=
@@ -45,3 +35,13 @@ LibName3=conn
 LibName4=Libraries/inductance/l_cap
 LibName5=Libraries/Kemet_Relay/ee2-5nu
 LibName6=Libraries/Omron_G5LE/Omron_G5LE
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=79
