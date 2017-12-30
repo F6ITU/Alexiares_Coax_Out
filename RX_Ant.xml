@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Marco/Documents/Kicad/Projets/Alexiares_Coax_Out/RX_Ant.sch</source>
+    <date>30/12/2017 16:44:52</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RX_Ant.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D71A8</tstamp>
+    </comp>
+    <comp ref="RL1">
+      <value>EC2-12NU</value>
+      <footprint>2_Form_C_Relay:THT_2_formC</footprint>
+      <libsource lib="ee2-5nu" part="EC2-12NU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7358</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7567</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7B10</tstamp>
+    </comp>
+    <comp ref="RL3">
+      <value>EC2-12NU</value>
+      <footprint>2_Form_C_Relay:THT_2_formC</footprint>
+      <libsource lib="ee2-5nu" part="EC2-12NU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7B16</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7B2C</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7DDA</tstamp>
+    </comp>
+    <comp ref="RL5">
+      <value>EC2-12NU</value>
+      <footprint>2_Form_C_Relay:THT_2_formC</footprint>
+      <libsource lib="ee2-5nu" part="EC2-12NU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7DE0</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7DF6</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7E1C</tstamp>
+    </comp>
+    <comp ref="RL7">
+      <value>EC2-12NU</value>
+      <footprint>2_Form_C_Relay:THT_2_formC</footprint>
+      <libsource lib="ee2-5nu" part="EC2-12NU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7E22</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D7E38</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D8F57</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D8F73</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D8F99</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D8FB5</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D8FDB</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D8FF7</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D95E0</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>CONN_01X05</value>
+      <footprint>conn_kk100:kk100_22-23-2051</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D9E3B</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>CONN_01X06</value>
+      <footprint>conn_kk100:kk100_22-23-2061</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593D9E90</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593DD4DA</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593DD907</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593E3EA3</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593E3EFA</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>CONN_COAXIAL</value>
+      <footprint>conn_rf:sma_straight_32k101-400l5</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593E5ACE</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>L_cap</value>
+      <footprint>Ferrite_LC_NFM41P:Ferrite_LC_NFM41P</footprint>
+      <libsource lib="l_cap" part="L_cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593F9422</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>L_cap</value>
+      <footprint>Ferrite_LC_NFM41P:Ferrite_LC_NFM41P</footprint>
+      <libsource lib="l_cap" part="L_cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593FA017</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>L_cap</value>
+      <footprint>Ferrite_LC_NFM41P:Ferrite_LC_NFM41P</footprint>
+      <libsource lib="l_cap" part="L_cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593FADDF</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>L_cap</value>
+      <footprint>Ferrite_LC_NFM41P:Ferrite_LC_NFM41P</footprint>
+      <libsource lib="l_cap" part="L_cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593FAE28</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L_cap</value>
+      <footprint>Ferrite_LC_NFM41P:Ferrite_LC_NFM41P</footprint>
+      <libsource lib="l_cap" part="L_cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593FAF2C</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>L_cap</value>
+      <footprint>Ferrite_LC_NFM41P:Ferrite_LC_NFM41P</footprint>
+      <libsource lib="l_cap" part="L_cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593FB530</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>L_cap</value>
+      <footprint>Ferrite_LC_NFM41P:Ferrite_LC_NFM41P</footprint>
+      <libsource lib="l_cap" part="L_cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593FBCE8</tstamp>
+    </comp>
+    <comp ref="RL6">
+      <value>Omron_G5LE</value>
+      <footprint>Omron_G5LE:Omron_G5LE</footprint>
+      <libsource lib="Omron_G5LE" part="Omron_G5LE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599D7E97</tstamp>
+    </comp>
+    <comp ref="RL4">
+      <value>Omron_G5LE</value>
+      <footprint>Omron_G5LE:Omron_G5LE</footprint>
+      <libsource lib="Omron_G5LE" part="Omron_G5LE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599DADDE</tstamp>
+    </comp>
+    <comp ref="RL2">
+      <value>Omron_G5LE</value>
+      <footprint>Omron_G5LE:Omron_G5LE</footprint>
+      <libsource lib="Omron_G5LE" part="Omron_G5LE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599DB3A3</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E41E7</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E47BD</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E4823</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E4830</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E4AE3</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E4AF0</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E4AFD</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599E4B0A</tstamp>
+    </comp>
+    <comp ref="J28">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A351B7C</tstamp>
+    </comp>
+    <comp ref="J30">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A351DC0</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3527F6</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352850</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352D09</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352D81</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352E06</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A353703</tstamp>
+    </comp>
+    <comp ref="J27">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35375A</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A354A6A</tstamp>
+    </comp>
+    <comp ref="J34">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A354ACF</tstamp>
+    </comp>
+    <comp ref="J35">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3557A9</tstamp>
+    </comp>
+    <comp ref="J36">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <libsource lib="RX_Ant-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A355C39</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RX_Ant-cache" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RX_Ant-cache" part="CONN_01X05">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RX_Ant-cache" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RX_Ant-cache" part="CONN_COAXIAL">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_COAXIAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ee2-5nu" part="EE2-5NU">
+      <aliases>
+        <alias>EE2-12NU</alias>
+        <alias>EC2-5NU</alias>
+        <alias>EC2-12NU</alias>
+      </aliases>
+      <description>Microminiature Polarised Dual Pole Relay</description>
+      <docs>http://www.azettler.com/pdfs/az850.pdf</docs>
+      <fields>
+        <field name="Reference">RL</field>
+        <field name="Value">EE2-5NU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="l_cap" part="L_cap">
+      <description>Inductor, small symbol</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_cap</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Omron_G5LE" part="Omron_G5LE">
+      <description>FINDER 40.51, Single Pole Relay, 5mm Pitch, 10A</description>
+      <docs>http://gfinder.findernet.com//assets/Series/5/S40EN.pdf</docs>
+      <fields>
+        <field name="Reference">RL</field>
+        <field name="Value">Omron_G5LE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="ee2-5nu">
+      <uri>C:\Users\Marco\Documents\Kicad\Projets\Alexiares_Coax_Out\Libraries\Kemet_Relay\ee2-5nu.lib</uri>
+    </library>
+    <library logical="l_cap">
+      <uri>C:\Users\Marco\Documents\Kicad\Projets\Alexiares_Coax_Out\Libraries\inductance\l_cap.lib</uri>
+    </library>
+    <library logical="Omron_G5LE">
+      <uri>C:\Users\Marco\Documents\Kicad\Projets\Alexiares_Coax_Out\Libraries\Omron_G5LE\Omron_G5LE.lib</uri>
+    </library>
+    <library logical="RX_Ant-cache">
+      <uri>C:\Users\Marco\Documents\Kicad\Projets\Alexiares_Coax_Out\RX_Ant-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="RX2_IN">
+      <node ref="L3" pin="3"/>
+      <node ref="J11" pin="4"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J25" pin="2"/>
+      <node ref="J19" pin="1"/>
+      <node ref="J20" pin="1"/>
+      <node ref="J21" pin="1"/>
+      <node ref="J24" pin="2"/>
+      <node ref="J29" pin="2"/>
+      <node ref="J26" pin="2"/>
+      <node ref="J31" pin="2"/>
+      <node ref="J32" pin="2"/>
+      <node ref="J35" pin="2"/>
+      <node ref="J36" pin="2"/>
+      <node ref="J27" pin="2"/>
+      <node ref="J23" pin="1"/>
+      <node ref="J28" pin="2"/>
+      <node ref="J30" pin="2"/>
+      <node ref="J22" pin="1"/>
+      <node ref="J33" pin="2"/>
+      <node ref="J34" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J18" pin="1"/>
+      <node ref="L6" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="L3" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="J15" pin="2"/>
+      <node ref="J17" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="J13" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J16" pin="1"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="3" name="Xvtr_IN">
+      <node ref="J11" pin="3"/>
+      <node ref="L1" pin="3"/>
+    </net>
+    <net code="4" name="RX3_IN">
+      <node ref="J11" pin="5"/>
+      <node ref="L5" pin="3"/>
+    </net>
+    <net code="5" name="Net-(L4-Pad1)">
+      <node ref="RL4" pin="5"/>
+      <node ref="L4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(RL2-Pad4)">
+      <node ref="RL2" pin="4"/>
+    </net>
+    <net code="7" name="Net-(RL4-Pad4)">
+      <node ref="RL4" pin="4"/>
+    </net>
+    <net code="8" name="Net-(RL6-Pad4)">
+      <node ref="RL6" pin="4"/>
+    </net>
+    <net code="9" name="Ant_3">
+      <node ref="J12" pin="5"/>
+      <node ref="L6" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J13-Pad1)">
+      <node ref="J24" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J33" pin="1"/>
+    </net>
+    <net code="11" name="Ant_2">
+      <node ref="L4" pin="3"/>
+      <node ref="J12" pin="4"/>
+    </net>
+    <net code="12" name="Ant_1">
+      <node ref="L2" pin="3"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="13" name="+12V">
+      <node ref="C9" pin="2"/>
+      <node ref="RL1" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="RL4" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="RL3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="RL2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="RL6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="RL5" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="RL7" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="14" name="RX_BYPASS_OUT">
+      <node ref="L7" pin="3"/>
+      <node ref="J11" pin="6"/>
+    </net>
+    <net code="15" name="Net-(L2-Pad1)">
+      <node ref="RL2" pin="5"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(L1-Pad1)">
+      <node ref="RL1" pin="12"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(L3-Pad1)">
+      <node ref="L3" pin="1"/>
+      <node ref="RL3" pin="12"/>
+    </net>
+    <net code="18" name="Net-(L5-Pad1)">
+      <node ref="RL5" pin="12"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="19" name="Net-(L7-Pad1)">
+      <node ref="RL7" pin="12"/>
+      <node ref="L7" pin="1"/>
+    </net>
+    <net code="20" name="Net-(L6-Pad1)">
+      <node ref="RL6" pin="5"/>
+      <node ref="L6" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J10-Pad1)">
+      <node ref="RL6" pin="3"/>
+      <node ref="J30" pin="1"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="22" name="Net-(J27-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="RL4" pin="3"/>
+      <node ref="J27" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="RL2" pin="3"/>
+      <node ref="J25" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J34-Pad1)">
+      <node ref="RL4" pin="1"/>
+      <node ref="RL6" pin="1"/>
+      <node ref="RL2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J34" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J31-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="RL5" pin="5"/>
+      <node ref="RL5" pin="8"/>
+      <node ref="J31" pin="1"/>
+    </net>
+    <net code="26" name="Net-(RL5-Pad10)">
+      <node ref="RL5" pin="10"/>
+    </net>
+    <net code="27" name="Net-(RL5-Pad3)">
+      <node ref="RL5" pin="3"/>
+    </net>
+    <net code="28" name="Net-(J15-Pad1)">
+      <node ref="RL7" pin="9"/>
+      <node ref="RL7" pin="4"/>
+      <node ref="J35" pin="1"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="29" name="Net-(J32-Pad1)">
+      <node ref="RL7" pin="5"/>
+      <node ref="J32" pin="1"/>
+      <node ref="RL7" pin="8"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="30" name="Net-(RL1-Pad10)">
+      <node ref="RL1" pin="10"/>
+    </net>
+    <net code="31" name="Net-(RL1-Pad3)">
+      <node ref="RL1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad1)">
+      <node ref="J26" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="RL1" pin="5"/>
+      <node ref="RL1" pin="8"/>
+    </net>
+    <net code="33" name="Net-(RL3-Pad3)">
+      <node ref="RL3" pin="3"/>
+    </net>
+    <net code="34" name="Net-(RL3-Pad10)">
+      <node ref="RL3" pin="10"/>
+    </net>
+    <net code="35" name="Net-(J29-Pad1)">
+      <node ref="RL3" pin="8"/>
+      <node ref="RL3" pin="5"/>
+      <node ref="J29" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="36" name="Net-(J28-Pad1)">
+      <node ref="RL3" pin="9"/>
+      <node ref="RL3" pin="4"/>
+      <node ref="J9" pin="1"/>
+      <node ref="RL1" pin="9"/>
+      <node ref="J28" pin="1"/>
+      <node ref="RL5" pin="9"/>
+      <node ref="RL1" pin="4"/>
+      <node ref="RL5" pin="4"/>
+    </net>
+    <net code="37" name="Net-(J36-Pad1)">
+      <node ref="RL7" pin="3"/>
+      <node ref="RL7" pin="10"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J36" pin="1"/>
+    </net>
+  </nets>
+</export>
