@@ -743,7 +743,7 @@ F 1 "CONN_01X05" V 6000 5350 50  0000 C CNN
 F 2 "conn_kk100:kk100_22-23-2051" H 5900 5350 50  0001 C CNN
 F 3 "" H 5900 5350 50  0001 C CNN
 	1    5900 5350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X06 J11
@@ -754,7 +754,7 @@ F 1 "CONN_01X06" V 8550 2900 50  0000 C CNN
 F 2 "conn_kk100:kk100_22-23-2061" H 8450 2900 50  0001 C CNN
 F 3 "" H 8450 2900 50  0001 C CNN
 	1    8450 2900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text GLabel 8200 3150 0    60   Input ~ 0
 RX_BYPASS_OUT
