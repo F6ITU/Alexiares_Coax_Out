@@ -1,8 +1,12 @@
-# Alexiares_Coax_Out
+# Alexiares_Coax_Out V1
 
 Kicad files
 
 OpenHPSDR RX and TX rear panel crowbar (coax input and output)
+Version 1.0
+
+for more informations, please refer to 
+https://wiki.electrolab.fr/Projets:Lab:2017:Peripheriques_Angelia
 
 This board could be cut in half and shielded
 
@@ -21,15 +25,14 @@ RX_Ant_up.jpg
 Board's dimensions are oversized to fit the 5x10 and 10x10cm 
 size of all board of the Hermes project under Kicad: 
 
-AlexI2C
-
-Alexandrie
-
-Alexiares_Coax_Out (this one)
-
-Alexiares_HPF
-
-Alexiares_LPF
-
-Mentor
-
+* Alexandrie (Ἀλεξάνδρεια), Alexiares SPI interface
+* Alexi2C ( Ἄλεξις), Alternate Alexiares I2C interface
+* Alexiares_lpf (Ἀλεξιάρης) Alexiares low pass filter
+* Alexiares_hpf (Ἀλεξιάρης) Alexiares high-pass filter
+* Alexiares_Coax_Out (Ἀλεξιάρης ) Alexiares antenna switch boards
+* Télémaque (Τηλέμαχος),  SSPA U/V/C°/Refl/FWD sensor for the Mentor board 
+* Mentor (Μέντωρ) Micro-controler unit(MCU) and security module controling Telemaque informations
+* Ulysse ou Odysseus (Ὀδυσσεύς), medium power reflectometer for the Telemaque/Mentor set
+* Themis (Θέμις), low power bidirectionnal reflectometer with pre-distorsion (pure signal) output
+* Aiôn (αἰών), 10 MHz low drift, low phase noise clock (general purpose)
+* Hébé (Ἥβη), EER control system for high efficiency power amp
