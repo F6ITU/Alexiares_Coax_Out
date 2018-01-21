@@ -1,10 +1,10 @@
-# Alexiares_Coax_Out V1
+# Alexiares_Coax_Out Master
 
 Kicad files
 
 OpenHPSDR RX and TX rear panel crowbar (coax input and output)
 
-##Branch Master
+###Branch Master
 -----------
 
   Please do NOT use this repository.
