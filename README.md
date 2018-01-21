@@ -1,16 +1,19 @@
-# Alexiares_Coax_Out V1
+# Alexiares_Coax_Out V2
 
 Kicad files
 
 OpenHPSDR RX and TX rear panel crowbar (coax input and output)
 
-'''Version 2.0'''
+###Version 2.0
 
-This version inclueds the "Pure Signal" relay input comming from inside or outside of the rig 
+This version includes the "Pure Signal" relay input comming from inside or outside of the rig
+ 
 This relay forwards PS_in or hpf out to the default RX or ADC depending on the state of 
+
 TX_RX_Relay signal
 
 for more informations, please refer to 
+
 https://wiki.electrolab.fr/Projets:Lab:2017:Peripheriques_Angelia
 
 This board could be cut in half and shielded
@@ -27,8 +30,13 @@ RX_Ant dwn.jpg
 
 RX_Ant_up.jpg
 
-Board's dimensions are oversized to fit the 5x10 and 10x10cm 
-size of all board of the Hermes project under Kicad: 
+Bom is available in CSV format
+
+Schematics, pcb design, modules and libs are in Kicad format
+
+Gerber files are fully compatible with Protel 4.6 format
+
+Board's dimensions are oversized to fit the 5x10 and 10x10cm size of all board of the Hermes project under Kicad:
 
 * Alexandrie (Ἀλεξάνδρεια), Alexiares SPI interface
 * Alexi2C ( Ἄλεξις), Alternate Alexiares I2C interface
