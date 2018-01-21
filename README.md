@@ -7,9 +7,9 @@ OpenHPSDR RX and TX rear panel crowbar (coax input and output)
 ##Branch Master
 -----------
 
-  Please do NOT use this repository
+  Please do NOT use this repository.
   Master is the main development trunk and, for this reason, 
-  in an unstable state. Use the last branch instead
+  is in a perpetual unstable state. Use the last branch instead
 -----------
 
 For more informations, please refer to 
