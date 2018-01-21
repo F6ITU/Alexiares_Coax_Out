@@ -4,13 +4,12 @@ Kicad files
 
 OpenHPSDR RX and TX rear panel crowbar (coax input and output)
 
-'''Version 2.0'''
+Branch Master
+  Please do NOT use this repository
+  Master is the main development trunk and, for this reason, 
+  in an unstable state. Use the last branch instead
 
-This version inclueds the "Pure Signal" relay input comming from inside or outside of the rig 
-This relay forwards PS_in or hpf out to the default RX or ADC depending on the state of 
-TX_RX_Relay signal
-
-for more informations, please refer to 
+For more informations, please refer to 
 https://wiki.electrolab.fr/Projets:Lab:2017:Peripheriques_Angelia
 
 This board could be cut in half and shielded
