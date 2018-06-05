@@ -1,10 +1,10 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:conn
 LIBS:l_cap
 LIBS:ee2-5nu
 LIBS:Omron_G5LE
+LIBS:Connector_Generic
+LIBS:Device
+LIBS:power
 LIBS:RX_Ant-cache
 EELAYER 25 0
 EELAYER END
@@ -42,21 +42,8 @@ F 3 "" H 3700 2200 50  0001 C CNN
 	1    3700 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 1900 4000 1750
-Wire Wire Line
-	4000 1750 4400 1750
-Wire Wire Line
-	4400 1750 4400 1900
-Connection ~ 4200 1750
 NoConn ~ 3800 1900
 NoConn ~ 4200 1900
-Wire Wire Line
-	3900 2500 3900 2600
-Wire Wire Line
-	3900 2600 4300 2600
-Wire Wire Line
-	4300 2600 4300 2500
 $Comp
 L GND #PWR01
 U 1 1 593D750B
@@ -90,8 +77,6 @@ F 3 "" H 3450 1850 50  0001 C CNN
 	1    3450 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3500 1850 3500 1900
 $Comp
 L C C1
 U 1 1 593D7567
@@ -103,12 +88,6 @@ F 3 "" H 3500 1700 50  0001 C CNN
 	1    3500 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 1850 3500 1850
-Wire Wire Line
-	3500 2500 3500 2550
-Wire Wire Line
-	3500 2550 3300 2550
 $Comp
 L GND #PWR04
 U 1 1 593D7654
@@ -120,12 +99,8 @@ F 3 "" H 3500 1500 50  0001 C CNN
 	1    3500 1500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3500 1550 3500 1500
 Text GLabel 3300 2800 3    60   Input ~ 0
 Xvtr_IN
-Wire Wire Line
-	4200 1600 4200 1750
 $Comp
 L GND #PWR05
 U 1 1 593D77D5
@@ -137,8 +112,6 @@ F 3 "" H 4450 1450 50  0001 C CNN
 	1    4450 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4400 1450 4450 1450
 $Comp
 L PWR_FLAG #FLG06
 U 1 1 593D78F7
@@ -161,10 +134,6 @@ F 3 "" H 10250 900 50  0001 C CNN
 	1    10250 900 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10250 850  10250 900 
-Wire Wire Line
-	10650 850  10650 900 
 $Comp
 L CONN_COAXIAL J3
 U 1 1 593D7B10
@@ -187,21 +156,8 @@ F 3 "" H 5000 2200 50  0001 C CNN
 	1    5000 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 1900 5300 1750
-Wire Wire Line
-	5300 1750 5700 1750
-Wire Wire Line
-	5700 1750 5700 1900
-Connection ~ 5500 1750
 NoConn ~ 5100 1900
 NoConn ~ 5500 1900
-Wire Wire Line
-	5200 2500 5200 2600
-Wire Wire Line
-	5200 2600 5600 2600
-Wire Wire Line
-	5600 2600 5600 2500
 $Comp
 L +12V #PWR08
 U 1 1 593D7B25
@@ -213,8 +169,6 @@ F 3 "" H 4750 1850 50  0001 C CNN
 	1    4750 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4800 1850 4800 1900
 $Comp
 L C C5
 U 1 1 593D7B2C
@@ -226,12 +180,6 @@ F 3 "" H 4800 1700 50  0001 C CNN
 	1    4800 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 1850 4800 1850
-Wire Wire Line
-	4800 2500 4800 2550
-Wire Wire Line
-	4800 2550 4600 2550
 $Comp
 L GND #PWR09
 U 1 1 593D7B3B
@@ -243,12 +191,8 @@ F 3 "" H 4800 1500 50  0001 C CNN
 	1    4800 1500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4800 1550 4800 1500
 Text GLabel 4600 2800 3    60   Input ~ 0
 RX2_IN
-Wire Wire Line
-	5500 1600 5500 1750
 $Comp
 L GND #PWR010
 U 1 1 593D7B4B
@@ -260,8 +204,6 @@ F 3 "" H 5750 1450 50  0001 C CNN
 	1    5750 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5700 1450 5750 1450
 $Comp
 L CONN_COAXIAL J6
 U 1 1 593D7DDA
@@ -284,21 +226,8 @@ F 3 "" H 6300 2200 50  0001 C CNN
 	1    6300 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 1900 6600 1750
-Wire Wire Line
-	6600 1750 7000 1750
-Wire Wire Line
-	7000 1750 7000 1900
-Connection ~ 6800 1750
 NoConn ~ 6400 1900
 NoConn ~ 6800 1900
-Wire Wire Line
-	6500 2500 6500 2600
-Wire Wire Line
-	6500 2600 6900 2600
-Wire Wire Line
-	6900 2600 6900 2500
 $Comp
 L +12V #PWR011
 U 1 1 593D7DEF
@@ -310,8 +239,6 @@ F 3 "" H 6050 1850 50  0001 C CNN
 	1    6050 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6100 1850 6100 1900
 $Comp
 L C C9
 U 1 1 593D7DF6
@@ -323,12 +250,6 @@ F 3 "" H 6100 1700 50  0001 C CNN
 	1    6100 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 1850 6100 1850
-Wire Wire Line
-	6100 2500 6100 2550
-Wire Wire Line
-	6100 2550 5900 2550
 $Comp
 L GND #PWR012
 U 1 1 593D7E05
@@ -340,12 +261,8 @@ F 3 "" H 6100 1500 50  0001 C CNN
 	1    6100 1500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6100 1550 6100 1500
 Text GLabel 5900 2800 3    60   Input ~ 0
 RX3_IN
-Wire Wire Line
-	6800 1600 6800 1750
 $Comp
 L GND #PWR013
 U 1 1 593D7E15
@@ -357,8 +274,6 @@ F 3 "" H 7050 1450 50  0001 C CNN
 	1    7050 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7000 1450 7050 1450
 $Comp
 L CONN_COAXIAL J8
 U 1 1 593D7E1C
@@ -381,19 +296,6 @@ F 3 "" H 7600 2200 50  0001 C CNN
 	1    7600 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 1900 7900 1750
-Wire Wire Line
-	7900 1750 8300 1750
-Wire Wire Line
-	8300 1750 8300 1900
-Connection ~ 8100 1750
-Wire Wire Line
-	7800 2500 7800 2600
-Wire Wire Line
-	7800 2600 8200 2600
-Wire Wire Line
-	8200 2600 8200 2500
 $Comp
 L +12V #PWR014
 U 1 1 593D7E31
@@ -405,8 +307,6 @@ F 3 "" H 7350 1850 50  0001 C CNN
 	1    7350 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7400 1850 7400 1900
 $Comp
 L C C13
 U 1 1 593D7E38
@@ -418,12 +318,6 @@ F 3 "" H 7400 1700 50  0001 C CNN
 	1    7400 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 1850 7400 1850
-Wire Wire Line
-	7400 2500 7400 2550
-Wire Wire Line
-	7400 2550 7200 2550
 $Comp
 L GND #PWR015
 U 1 1 593D7E47
@@ -435,12 +329,8 @@ F 3 "" H 7400 1500 50  0001 C CNN
 	1    7400 1500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7400 1550 7400 1500
 Text GLabel 7200 2800 3    60   Input ~ 0
 RX_BYPASS_OUT
-Wire Wire Line
-	8100 1600 8100 1750
 $Comp
 L GND #PWR016
 U 1 1 593D7E57
@@ -452,26 +342,6 @@ F 3 "" H 8350 1450 50  0001 C CNN
 	1    8350 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8300 1450 8350 1450
-Wire Wire Line
-	4100 2600 4100 3150
-Connection ~ 8000 2600
-Connection ~ 4100 2600
-Wire Wire Line
-	6700 3150 6700 2600
-Connection ~ 6700 2600
-Wire Wire Line
-	5400 2600 5400 3300
-Connection ~ 5400 3150
-Connection ~ 5400 2600
-Wire Wire Line
-	4100 3150 6700 3150
-Wire Wire Line
-	7700 1900 7700 1850
-Wire Wire Line
-	8100 1900 8100 1850
-Connection ~ 8100 1850
 $Comp
 L CONN_COAXIAL J2
 U 1 1 593D8F57
@@ -483,11 +353,7 @@ F 3 "" H 2900 5000 50  0001 C CNN
 	1    2900 5000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2900 5150 2900 5450
 NoConn ~ 2700 5450
-Wire Wire Line
-	2800 6050 2800 6700
 $Comp
 L +12V #PWR017
 U 1 1 593D8F6C
@@ -499,8 +365,6 @@ F 3 "" H 2350 5400 50  0001 C CNN
 	1    2350 5400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2400 5400 2400 5450
 $Comp
 L C C3
 U 1 1 593D8F73
@@ -512,12 +376,6 @@ F 3 "" H 2400 5250 50  0001 C CNN
 	1    2400 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 5400 2400 5400
-Wire Wire Line
-	2400 6050 2400 6100
-Wire Wire Line
-	2400 6100 2200 6100
 $Comp
 L GND #PWR018
 U 1 1 593D8F82
@@ -529,8 +387,6 @@ F 3 "" H 2400 5050 50  0001 C CNN
 	1    2400 5050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2400 5100 2400 5050
 Text GLabel 2200 6350 3    60   Input ~ 0
 Ant_1
 $Comp
@@ -544,8 +400,6 @@ F 3 "" H 3150 5000 50  0001 C CNN
 	1    3150 5000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3100 5000 3150 5000
 $Comp
 L CONN_COAXIAL J5
 U 1 1 593D8F99
@@ -557,11 +411,7 @@ F 3 "" H 4200 5000 50  0001 C CNN
 	1    4200 5000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4200 5150 4200 5450
 NoConn ~ 4000 5450
-Wire Wire Line
-	4100 6050 4100 6850
 $Comp
 L +12V #PWR020
 U 1 1 593D8FAE
@@ -573,8 +423,6 @@ F 3 "" H 3650 5400 50  0001 C CNN
 	1    3650 5400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3700 5400 3700 5450
 $Comp
 L C C7
 U 1 1 593D8FB5
@@ -586,12 +434,6 @@ F 3 "" H 3700 5250 50  0001 C CNN
 	1    3700 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3650 5400 3700 5400
-Wire Wire Line
-	3700 6050 3700 6100
-Wire Wire Line
-	3700 6100 3500 6100
 $Comp
 L GND #PWR021
 U 1 1 593D8FC4
@@ -603,8 +445,6 @@ F 3 "" H 3700 5050 50  0001 C CNN
 	1    3700 5050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3700 5100 3700 5050
 Text GLabel 3500 6350 3    60   Input ~ 0
 Ant_2
 $Comp
@@ -618,13 +458,7 @@ F 3 "" H 4450 5000 50  0001 C CNN
 	1    4450 5000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4400 5000 4450 5000
-Wire Wire Line
-	5500 5150 5500 5450
 NoConn ~ 5300 5450
-Wire Wire Line
-	5400 6700 5400 6050
 $Comp
 L +12V #PWR023
 U 1 1 593D8FF0
@@ -636,8 +470,6 @@ F 3 "" H 4950 5400 50  0001 C CNN
 	1    4950 5400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5000 5400 5000 5450
 $Comp
 L C C11
 U 1 1 593D8FF7
@@ -649,12 +481,6 @@ F 3 "" H 5000 5250 50  0001 C CNN
 	1    5000 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 5400 5000 5400
-Wire Wire Line
-	5000 6050 5000 6100
-Wire Wire Line
-	5000 6100 4800 6100
 $Comp
 L GND #PWR024
 U 1 1 593D9006
@@ -666,8 +492,6 @@ F 3 "" H 5000 5050 50  0001 C CNN
 	1    5000 5050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5000 5100 5000 5050
 Text GLabel 4800 6350 3    60   Input ~ 0
 Ant_3
 $Comp
@@ -692,8 +516,6 @@ F 3 "" H 4350 7000 50  0001 C CNN
 	1    4350 7000
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4300 7000 4350 7000
 Text Notes 2800 4500 0    100  ~ 20
 ANT_1\n
 Text Notes 4000 4500 0    100  ~ 20
@@ -751,18 +573,6 @@ F 3 "" H 9350 2400 50  0001 C CNN
 	1    9350 2400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9350 2400 9400 2400
-Wire Wire Line
-	9350 2500 9400 2500
-Wire Wire Line
-	9350 2600 9400 2600
-Wire Wire Line
-	9350 2700 9400 2700
-Wire Wire Line
-	9350 2800 9400 2800
-Wire Wire Line
-	9350 2900 9400 2900
 Text GLabel 6800 5100 0    60   Input ~ 0
 Ant_1
 Text GLabel 6800 5200 0    60   Input ~ 0
@@ -791,16 +601,6 @@ F 3 "" H 6800 4900 50  0001 C CNN
 	1    6800 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6800 4900 6850 4900
-Wire Wire Line
-	6800 5000 6850 5000
-Wire Wire Line
-	6800 5100 6850 5100
-Wire Wire Line
-	6800 5200 6850 5200
-Wire Wire Line
-	6800 5300 6850 5300
 Text Notes 7800 3600 0    79   ~ 16
 To_RX
 $Comp
@@ -825,8 +625,6 @@ F 3 "" H 5650 3450 50  0001 C CNN
 	1    5650 3450
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5600 3450 5650 3450
 $Comp
 L CONN_COAXIAL J10
 U 1 1 593DD907
@@ -849,8 +647,6 @@ F 3 "" H 5750 5000 50  0001 C CNN
 	1    5750 5000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5700 5000 5750 5000
 Text Notes 5250 4250 0    60   ~ 0
 To HPF IN
 Text Notes 7350 6850 0    200  ~ 40
@@ -877,12 +673,8 @@ F 3 "" H 8250 3050 50  0001 C CNN
 	1    8250 3050
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	8200 3050 8250 3050
-Wire Wire Line
-	8000 2600 8000 2900
 Text Notes 6050 5750 0    79   ~ 16
-All 3 coax SMA\n(to chassis bulhead ut141/N connectors)
+All 3 coax SMA\n
 $Comp
 L L_cap L6
 U 1 1 593F9422
@@ -960,34 +752,6 @@ F 3 "" H 3500 6200 50  0001 C CNN
 	1    3500 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 6300 2200 6350
-Wire Wire Line
-	2050 6200 2000 6200
-Wire Wire Line
-	3350 6200 3300 6200
-Wire Wire Line
-	3500 6300 3500 6350
-Wire Wire Line
-	4800 6300 4800 6350
-Wire Wire Line
-	4650 6200 4600 6200
-Wire Wire Line
-	7200 2750 7200 2800
-Wire Wire Line
-	7050 2650 7000 2650
-Wire Wire Line
-	5900 2750 5900 2800
-Wire Wire Line
-	5750 2650 5700 2650
-Wire Wire Line
-	4600 2750 4600 2800
-Wire Wire Line
-	4450 2650 4400 2650
-Wire Wire Line
-	3150 2650 3100 2650
-Wire Wire Line
-	3300 2750 3300 2800
 $Comp
 L GND #PWR033
 U 1 1 593FD31A
@@ -1067,7 +831,7 @@ F 3 "" H 3300 6200 50  0001 C CNN
 $EndComp
 Text Notes 10650 3350 0    60   ~ 0
 from HPF out
-Text Notes 5150 4050 0    79   ~ 16
+Text Notes 5850 3600 0    79   ~ 16
 RX_MASTER_IN
 $Comp
 L Omron_G5LE RL6
@@ -1104,9 +868,6 @@ F 3 "" H 2600 5750 50  0000 C CNN
 $EndComp
 Text Notes 6050 5900 0    79   ~ 0
 All TX relays Omron G5LE-12V
-Connection ~ 4100 6700
-Wire Wire Line
-	2800 6700 5400 6700
 $Comp
 L GND #PWR040
 U 1 1 599E41B3
@@ -1118,8 +879,6 @@ F 3 "" H 700 1000 50  0001 C CNN
 	1    700  1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	700  950  700  1000
 $Comp
 L CONN_01X01 J16
 U 1 1 599E41E7
@@ -1142,8 +901,6 @@ F 3 "" H 1200 1000 50  0001 C CNN
 	1    1200 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 950  1200 1000
 $Comp
 L CONN_01X01 J17
 U 1 1 599E47BD
@@ -1166,8 +923,6 @@ F 3 "" H 1550 1000 50  0001 C CNN
 	1    1550 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 950  1550 1000
 $Comp
 L CONN_01X01 J18
 U 1 1 599E4823
@@ -1190,8 +945,6 @@ F 3 "" H 2050 1000 50  0001 C CNN
 	1    2050 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 950  2050 1000
 $Comp
 L CONN_01X01 J19
 U 1 1 599E4830
@@ -1214,8 +967,6 @@ F 3 "" H 5300 7300 50  0001 C CNN
 	1    5300 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 7250 5300 7300
 $Comp
 L CONN_01X01 J20
 U 1 1 599E4AE3
@@ -1238,8 +989,6 @@ F 3 "" H 5800 7300 50  0001 C CNN
 	1    5800 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 7250 5800 7300
 $Comp
 L CONN_01X01 J21
 U 1 1 599E4AF0
@@ -1262,8 +1011,6 @@ F 3 "" H 6150 7300 50  0001 C CNN
 	1    6150 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 7250 6150 7300
 $Comp
 L CONN_01X01 J22
 U 1 1 599E4AFD
@@ -1286,8 +1033,6 @@ F 3 "" H 6650 7300 50  0001 C CNN
 	1    6650 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 7250 6650 7300
 $Comp
 L CONN_01X01 J23
 U 1 1 599E4B0A
@@ -1300,306 +1045,27 @@ F 3 "" H 6650 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_COAXIAL J28
-U 1 1 5A351B7C
-P 5400 3750
-F 0 "J28" H 5410 3870 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 5515 3750 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5400 3750 50  0001 C CNN
-F 3 "" H 5400 3750 50  0001 C CNN
-	1    5400 3750
+L CONN_COAXIAL J32
+U 1 1 5A352E06
+P 6200 3300
+F 0 "J32" H 6210 3420 50  0000 C CNN
+F 1 "CONN_COAXIAL" V 6315 3300 50  0000 C CNN
+F 2 "conn_rf:sma_straight_32k101-400l5" H 6200 3300 50  0001 C CNN
+F 3 "" H 6200 3300 50  0001 C CNN
+	1    6200 3300
 	0    -1   1    0   
 $EndComp
 $Comp
 L GND #PWR048
-U 1 1 5A351B82
-P 5650 3750
-F 0 "#PWR048" H 5650 3500 50  0001 C CNN
-F 1 "GND" H 5650 3600 50  0000 C CNN
-F 2 "" H 5650 3750 50  0001 C CNN
-F 3 "" H 5650 3750 50  0001 C CNN
-	1    5650 3750
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5600 3750 5650 3750
-Wire Wire Line
-	5400 3250 5100 3250
-Wire Wire Line
-	5100 3250 5100 3600
-Wire Wire Line
-	5100 3600 5400 3600
-Connection ~ 5400 3250
-$Comp
-L CONN_COAXIAL J30
-U 1 1 5A351DC0
-P 5500 4750
-F 0 "J30" H 5510 4870 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 5615 4750 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5500 4750 50  0001 C CNN
-F 3 "" H 5500 4750 50  0001 C CNN
-	1    5500 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR049
-U 1 1 5A351DC6
-P 5750 4750
-F 0 "#PWR049" H 5750 4500 50  0001 C CNN
-F 1 "GND" H 5750 4600 50  0000 C CNN
-F 2 "" H 5750 4750 50  0001 C CNN
-F 3 "" H 5750 4750 50  0001 C CNN
-	1    5750 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5750 4750 5700 4750
-$Comp
-L CONN_COAXIAL J26
-U 1 1 5A352850
-P 4200 1200
-F 0 "J26" H 4210 1320 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 4315 1200 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4200 1200 50  0001 C CNN
-F 3 "" H 4200 1200 50  0001 C CNN
-	1    4200 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR050
-U 1 1 5A352856
-P 4450 1200
-F 0 "#PWR050" H 4450 950 50  0001 C CNN
-F 1 "GND" H 4450 1050 50  0000 C CNN
-F 2 "" H 4450 1200 50  0001 C CNN
-F 3 "" H 4450 1200 50  0001 C CNN
-	1    4450 1200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4450 1200 4400 1200
-$Comp
-L CONN_COAXIAL J29
-U 1 1 5A352D09
-P 5500 1200
-F 0 "J29" H 5510 1320 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 5615 1200 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5500 1200 50  0001 C CNN
-F 3 "" H 5500 1200 50  0001 C CNN
-	1    5500 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR051
-U 1 1 5A352D0F
-P 5750 1200
-F 0 "#PWR051" H 5750 950 50  0001 C CNN
-F 1 "GND" H 5750 1050 50  0000 C CNN
-F 2 "" H 5750 1200 50  0001 C CNN
-F 3 "" H 5750 1200 50  0001 C CNN
-	1    5750 1200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5750 1200 5700 1200
-$Comp
-L CONN_COAXIAL J31
-U 1 1 5A352D81
-P 6800 1200
-F 0 "J31" H 6810 1320 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 6915 1200 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6800 1200 50  0001 C CNN
-F 3 "" H 6800 1200 50  0001 C CNN
-	1    6800 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR052
-U 1 1 5A352D87
-P 7050 1200
-F 0 "#PWR052" H 7050 950 50  0001 C CNN
-F 1 "GND" H 7050 1050 50  0000 C CNN
-F 2 "" H 7050 1200 50  0001 C CNN
-F 3 "" H 7050 1200 50  0001 C CNN
-	1    7050 1200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7050 1200 7000 1200
-$Comp
-L CONN_COAXIAL J32
-U 1 1 5A352E06
-P 8100 1200
-F 0 "J32" H 8110 1320 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 8215 1200 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 8100 1200 50  0001 C CNN
-F 3 "" H 8100 1200 50  0001 C CNN
-	1    8100 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR053
 U 1 1 5A352E0C
-P 8350 1200
-F 0 "#PWR053" H 8350 950 50  0001 C CNN
-F 1 "GND" H 8350 1050 50  0000 C CNN
-F 2 "" H 8350 1200 50  0001 C CNN
-F 3 "" H 8350 1200 50  0001 C CNN
-	1    8350 1200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8350 1200 8300 1200
-$Comp
-L CONN_COAXIAL J25
-U 1 1 5A353703
-P 2900 4750
-F 0 "J25" H 2910 4870 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 3015 4750 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2900 4750 50  0001 C CNN
-F 3 "" H 2900 4750 50  0001 C CNN
-	1    2900 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR054
-U 1 1 5A353709
-P 3150 4750
-F 0 "#PWR054" H 3150 4500 50  0001 C CNN
-F 1 "GND" H 3150 4600 50  0000 C CNN
-F 2 "" H 3150 4750 50  0001 C CNN
-F 3 "" H 3150 4750 50  0001 C CNN
-	1    3150 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3150 4750 3100 4750
-$Comp
-L CONN_COAXIAL J27
-U 1 1 5A35375A
-P 4200 4750
-F 0 "J27" H 4210 4870 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 4315 4750 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4200 4750 50  0001 C CNN
-F 3 "" H 4200 4750 50  0001 C CNN
-	1    4200 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR055
-U 1 1 5A353760
-P 4450 4750
-F 0 "#PWR055" H 4450 4500 50  0001 C CNN
-F 1 "GND" H 4450 4600 50  0000 C CNN
-F 2 "" H 4450 4750 50  0001 C CNN
-F 3 "" H 4450 4750 50  0001 C CNN
-	1    4450 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4450 4750 4400 4750
-Wire Wire Line
-	2900 4900 2750 4900
-Wire Wire Line
-	2750 4900 2750 5150
-Wire Wire Line
-	2750 5150 2900 5150
-Wire Wire Line
-	4200 4900 4050 4900
-Wire Wire Line
-	4050 4900 4050 5150
-Wire Wire Line
-	4050 5150 4200 5150
-Wire Wire Line
-	5500 4900 5350 4900
-Wire Wire Line
-	5350 4900 5350 5150
-Wire Wire Line
-	5350 5150 5500 5150
-Wire Wire Line
-	4200 1350 4050 1350
-Wire Wire Line
-	4050 1350 4050 1600
-Wire Wire Line
-	4050 1600 4200 1600
-Wire Wire Line
-	5500 1350 5350 1350
-Wire Wire Line
-	5350 1350 5350 1600
-Wire Wire Line
-	5350 1600 5500 1600
-Wire Wire Line
-	6800 1350 6650 1350
-Wire Wire Line
-	6650 1350 6650 1600
-Wire Wire Line
-	6650 1600 6800 1600
-Wire Wire Line
-	8100 1350 7950 1350
-Wire Wire Line
-	7950 1350 7950 1600
-Wire Wire Line
-	7950 1600 8100 1600
-$Comp
-L CONN_COAXIAL J34
-U 1 1 5A354ACF
-P 4100 7250
-F 0 "J34" H 4110 7370 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 4215 7250 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4100 7250 50  0001 C CNN
-F 3 "" H 4100 7250 50  0001 C CNN
-	1    4100 7250
+P 6450 3300
+F 0 "#PWR048" H 6450 3050 50  0001 C CNN
+F 1 "GND" H 6450 3150 50  0000 C CNN
+F 2 "" H 6450 3300 50  0001 C CNN
+F 3 "" H 6450 3300 50  0001 C CNN
+	1    6450 3300
 	0    -1   1    0   
 $EndComp
-$Comp
-L GND #PWR056
-U 1 1 5A354AD5
-P 4350 7250
-F 0 "#PWR056" H 4350 7000 50  0001 C CNN
-F 1 "GND" H 4350 7100 50  0000 C CNN
-F 2 "" H 4350 7250 50  0001 C CNN
-F 3 "" H 4350 7250 50  0001 C CNN
-	1    4350 7250
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4300 7250 4350 7250
-Wire Wire Line
-	3900 6850 3900 7100
-Wire Wire Line
-	3900 7100 4100 7100
-$Comp
-L CONN_COAXIAL J35
-U 1 1 5A3557A9
-P 8000 3300
-F 0 "J35" H 8010 3420 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 8115 3300 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 8000 3300 50  0001 C CNN
-F 3 "" H 8000 3300 50  0001 C CNN
-	1    8000 3300
-	0    -1   1    0   
-$EndComp
-$Comp
-L GND #PWR057
-U 1 1 5A3557AF
-P 8250 3300
-F 0 "#PWR057" H 8250 3050 50  0001 C CNN
-F 1 "GND" H 8250 3150 50  0000 C CNN
-F 2 "" H 8250 3300 50  0001 C CNN
-F 3 "" H 8250 3300 50  0001 C CNN
-	1    8250 3300
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	8200 3300 8250 3300
-Wire Wire Line
-	8000 3150 7850 3150
-Wire Wire Line
-	7850 3150 7850 2900
-Wire Wire Line
-	7850 2900 8000 2900
-Wire Wire Line
-	4100 6850 3900 6850
 $Comp
 L EC2-12NU RL8
 U 1 1 5A61F33D
@@ -1611,25 +1077,17 @@ F 3 "" H 2250 2200 50  0001 C CNN
 	1    2250 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 2500 2450 2600
-Wire Wire Line
-	2450 2600 2850 2600
-Wire Wire Line
-	2850 2600 2850 2500
 $Comp
-L +12V #PWR058
+L +12V #PWR049
 U 1 1 5A61F34C
 P 2000 1850
-F 0 "#PWR058" H 2000 1700 50  0001 C CNN
+F 0 "#PWR049" H 2000 1700 50  0001 C CNN
 F 1 "+12V" H 2000 1990 50  0000 C CNN
 F 2 "" H 2000 1850 50  0001 C CNN
 F 3 "" H 2000 1850 50  0001 C CNN
 	1    2000 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2050 1850 2050 1900
 $Comp
 L C C2
 U 1 1 5A61F353
@@ -1641,28 +1099,19 @@ F 3 "" H 2050 1700 50  0001 C CNN
 	1    2050 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 1850 2050 1850
-Wire Wire Line
-	2050 2500 2050 2550
-Wire Wire Line
-	2050 2550 1850 2550
 $Comp
-L GND #PWR059
+L GND #PWR050
 U 1 1 5A61F35C
 P 2050 1500
-F 0 "#PWR059" H 2050 1250 50  0001 C CNN
+F 0 "#PWR050" H 2050 1250 50  0001 C CNN
 F 1 "GND" H 2050 1350 50  0000 C CNN
 F 2 "" H 2050 1500 50  0001 C CNN
 F 3 "" H 2050 1500 50  0001 C CNN
 	1    2050 1500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2050 1550 2050 1500
 Text GLabel 1850 2800 3    60   Input ~ 0
 TX_RX_RLY
-Connection ~ 2650 2600
 $Comp
 L L_cap L8
 U 1 1 5A61F384
@@ -1674,15 +1123,11 @@ F 3 "" H 1850 2650 50  0001 C CNN
 	1    1850 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 2650 1650 2650
-Wire Wire Line
-	1850 2750 1850 2800
 $Comp
-L GND #PWR060
+L GND #PWR051
 U 1 1 5A61F38E
 P 1650 2650
-F 0 "#PWR060" H 1650 2400 50  0001 C CNN
+F 0 "#PWR051" H 1650 2400 50  0001 C CNN
 F 1 "GND" H 1650 2500 50  0000 C CNN
 F 2 "" H 1650 2650 50  0001 C CNN
 F 3 "" H 1650 2650 50  0001 C CNN
@@ -1691,7 +1136,7 @@ F 3 "" H 1650 2650 50  0001 C CNN
 $EndComp
 Text Notes 2750 1150 0    100  ~ 20
 PS_Feedback\n
-Text Notes 2800 3400 0    79   ~ 16
+Text Notes 2750 4100 0    79   ~ 16
 RX1_Line
 $Comp
 L Conn_01x07 J14
@@ -1706,8 +1151,6 @@ F 3 "" H 9600 2700 50  0001 C CNN
 $EndComp
 Text GLabel 9350 3000 0    60   Input ~ 0
 TX_RX_RLY
-Wire Wire Line
-	9400 3000 9350 3000
 $Comp
 L CONN_COAXIAL J13
 U 1 1 5A624159
@@ -1720,44 +1163,16 @@ F 3 "" H 2950 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR061
+L GND #PWR052
 U 1 1 5A62415F
 P 3200 1600
-F 0 "#PWR061" H 3200 1350 50  0001 C CNN
+F 0 "#PWR052" H 3200 1350 50  0001 C CNN
 F 1 "GND" H 3200 1450 50  0000 C CNN
 F 2 "" H 3200 1600 50  0001 C CNN
 F 3 "" H 3200 1600 50  0001 C CNN
 	1    3200 1600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3150 1600 3200 1600
-$Comp
-L CONN_COAXIAL J11
-U 1 1 5A624166
-P 2950 1350
-F 0 "J11" H 2960 1470 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 3065 1350 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2950 1350 50  0001 C CNN
-F 3 "" H 2950 1350 50  0001 C CNN
-	1    2950 1350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR062
-U 1 1 5A62416C
-P 3200 1350
-F 0 "#PWR062" H 3200 1100 50  0001 C CNN
-F 1 "GND" H 3200 1200 50  0000 C CNN
-F 2 "" H 3200 1350 50  0001 C CNN
-F 3 "" H 3200 1350 50  0001 C CNN
-	1    3200 1350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3200 1350 3150 1350
-Wire Wire Line
-	2950 1500 2800 1500
 $Comp
 L CONN_COAXIAL J37
 U 1 1 5A6265FB
@@ -1770,55 +1185,306 @@ F 3 "" H 2350 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR063
+L GND #PWR053
 U 1 1 5A626601
 P 2600 1650
-F 0 "#PWR063" H 2600 1400 50  0001 C CNN
+F 0 "#PWR053" H 2600 1400 50  0001 C CNN
 F 1 "GND" H 2600 1500 50  0000 C CNN
 F 2 "" H 2600 1650 50  0001 C CNN
 F 3 "" H 2600 1650 50  0001 C CNN
 	1    2600 1650
 	0    -1   -1   0   
 $EndComp
+Text Notes 2150 1200 0    79   ~ 16
+HPF_Out
+Wire Wire Line
+	4000 1900 4000 1750
+Wire Wire Line
+	4000 1750 4400 1750
+Wire Wire Line
+	4400 1750 4400 1900
+Connection ~ 4200 1750
+Wire Wire Line
+	3900 2500 3900 2600
+Wire Wire Line
+	3900 2600 4300 2600
+Wire Wire Line
+	4300 2600 4300 2500
+Wire Wire Line
+	3500 1850 3500 1900
+Wire Wire Line
+	3450 1850 3500 1850
+Wire Wire Line
+	3500 2500 3500 2550
+Wire Wire Line
+	3500 2550 3300 2550
+Wire Wire Line
+	3500 1550 3500 1500
+Wire Wire Line
+	4200 1600 4200 1750
+Wire Wire Line
+	4400 1450 4450 1450
+Wire Wire Line
+	10250 850  10250 900 
+Wire Wire Line
+	10650 850  10650 900 
+Wire Wire Line
+	5300 1900 5300 1750
+Wire Wire Line
+	5300 1750 5700 1750
+Wire Wire Line
+	5700 1750 5700 1900
+Connection ~ 5500 1750
+Wire Wire Line
+	5200 2500 5200 2600
+Wire Wire Line
+	5200 2600 5600 2600
+Wire Wire Line
+	5600 2600 5600 2500
+Wire Wire Line
+	4800 1850 4800 1900
+Wire Wire Line
+	4750 1850 4800 1850
+Wire Wire Line
+	4800 2500 4800 2550
+Wire Wire Line
+	4800 2550 4600 2550
+Wire Wire Line
+	4800 1550 4800 1500
+Wire Wire Line
+	5500 1600 5500 1750
+Wire Wire Line
+	5700 1450 5750 1450
+Wire Wire Line
+	6600 1900 6600 1750
+Wire Wire Line
+	6600 1750 7000 1750
+Wire Wire Line
+	7000 1750 7000 1900
+Connection ~ 6800 1750
+Wire Wire Line
+	6500 2500 6500 2600
+Wire Wire Line
+	6500 2600 6900 2600
+Wire Wire Line
+	6900 2600 6900 2500
+Wire Wire Line
+	6100 1850 6100 1900
+Wire Wire Line
+	6050 1850 6100 1850
+Wire Wire Line
+	6100 2500 6100 2550
+Wire Wire Line
+	6100 2550 5900 2550
+Wire Wire Line
+	6100 1550 6100 1500
+Wire Wire Line
+	6800 1600 6800 1750
+Wire Wire Line
+	7000 1450 7050 1450
+Wire Wire Line
+	7900 1900 7900 1750
+Wire Wire Line
+	7900 1750 8300 1750
+Wire Wire Line
+	8300 1750 8300 1900
+Connection ~ 8100 1750
+Wire Wire Line
+	7800 2500 7800 2600
+Wire Wire Line
+	7800 2600 8200 2600
+Wire Wire Line
+	8200 2600 8200 2500
+Wire Wire Line
+	7400 1850 7400 1900
+Wire Wire Line
+	7350 1850 7400 1850
+Wire Wire Line
+	7400 2500 7400 2550
+Wire Wire Line
+	7400 2550 7200 2550
+Wire Wire Line
+	7400 1550 7400 1500
+Wire Wire Line
+	8100 1600 8100 1750
+Wire Wire Line
+	8300 1450 8350 1450
+Wire Wire Line
+	4100 2600 4100 3150
+Connection ~ 8000 2600
+Connection ~ 4100 2600
+Wire Wire Line
+	6700 3150 6700 2600
+Connection ~ 6700 2600
+Wire Wire Line
+	5400 2600 5400 3300
+Connection ~ 5400 3150
+Connection ~ 5400 2600
+Wire Wire Line
+	4100 3150 6700 3150
+Wire Wire Line
+	7700 1900 7700 1850
+Wire Wire Line
+	8100 1900 8100 1850
+Connection ~ 8100 1850
+Wire Wire Line
+	2900 5150 2900 5450
+Wire Wire Line
+	2800 6050 2800 6700
+Wire Wire Line
+	2400 5400 2400 5450
+Wire Wire Line
+	2350 5400 2400 5400
+Wire Wire Line
+	2400 6050 2400 6100
+Wire Wire Line
+	2400 6100 2200 6100
+Wire Wire Line
+	2400 5100 2400 5050
+Wire Wire Line
+	3100 5000 3150 5000
+Wire Wire Line
+	4200 5150 4200 5450
+Wire Wire Line
+	4100 6050 4100 6850
+Wire Wire Line
+	3700 5400 3700 5450
+Wire Wire Line
+	3650 5400 3700 5400
+Wire Wire Line
+	3700 6050 3700 6100
+Wire Wire Line
+	3700 6100 3500 6100
+Wire Wire Line
+	3700 5100 3700 5050
+Wire Wire Line
+	4400 5000 4450 5000
+Wire Wire Line
+	5500 5150 5500 5450
+Wire Wire Line
+	5400 6700 5400 6050
+Wire Wire Line
+	5000 5400 5000 5450
+Wire Wire Line
+	4950 5400 5000 5400
+Wire Wire Line
+	5000 6050 5000 6100
+Wire Wire Line
+	5000 6100 4800 6100
+Wire Wire Line
+	5000 5100 5000 5050
+Wire Wire Line
+	4300 7000 4350 7000
+Wire Wire Line
+	9350 2400 9400 2400
+Wire Wire Line
+	9350 2500 9400 2500
+Wire Wire Line
+	9350 2600 9400 2600
+Wire Wire Line
+	9350 2700 9400 2700
+Wire Wire Line
+	9350 2800 9400 2800
+Wire Wire Line
+	9350 2900 9400 2900
+Wire Wire Line
+	6800 4900 6850 4900
+Wire Wire Line
+	6800 5000 6850 5000
+Wire Wire Line
+	6800 5100 6850 5100
+Wire Wire Line
+	6800 5200 6850 5200
+Wire Wire Line
+	6800 5300 6850 5300
+Wire Wire Line
+	5600 3450 5650 3450
+Wire Wire Line
+	5700 5000 5750 5000
+Wire Wire Line
+	8200 3050 8250 3050
+Wire Wire Line
+	8000 2600 8000 2900
+Wire Wire Line
+	2200 6300 2200 6350
+Wire Wire Line
+	2050 6200 2000 6200
+Wire Wire Line
+	3350 6200 3300 6200
+Wire Wire Line
+	3500 6300 3500 6350
+Wire Wire Line
+	4800 6300 4800 6350
+Wire Wire Line
+	4650 6200 4600 6200
+Wire Wire Line
+	7200 2750 7200 2800
+Wire Wire Line
+	7050 2650 7000 2650
+Wire Wire Line
+	5900 2750 5900 2800
+Wire Wire Line
+	5750 2650 5700 2650
+Wire Wire Line
+	4600 2750 4600 2800
+Wire Wire Line
+	4450 2650 4400 2650
+Wire Wire Line
+	3150 2650 3100 2650
+Wire Wire Line
+	3300 2750 3300 2800
+Connection ~ 4100 6700
+Wire Wire Line
+	2800 6700 5400 6700
+Wire Wire Line
+	700  950  700  1000
+Wire Wire Line
+	1200 950  1200 1000
+Wire Wire Line
+	1550 950  1550 1000
+Wire Wire Line
+	2050 950  2050 1000
+Wire Wire Line
+	5300 7250 5300 7300
+Wire Wire Line
+	5800 7250 5800 7300
+Wire Wire Line
+	6150 7250 6150 7300
+Wire Wire Line
+	6650 7250 6650 7300
+Wire Wire Line
+	6450 3300 6400 3300
+Wire Wire Line
+	2450 2500 2450 2600
+Wire Wire Line
+	2450 2600 2850 2600
+Wire Wire Line
+	2850 2600 2850 2500
+Wire Wire Line
+	2050 1850 2050 1900
+Wire Wire Line
+	2000 1850 2050 1850
+Wire Wire Line
+	2050 2500 2050 2550
+Wire Wire Line
+	2050 2550 1850 2550
+Wire Wire Line
+	2050 1550 2050 1500
+Connection ~ 2650 2600
+Wire Wire Line
+	1700 2650 1650 2650
+Wire Wire Line
+	1850 2750 1850 2800
+Wire Wire Line
+	9400 3000 9350 3000
+Wire Wire Line
+	3150 1600 3200 1600
 Wire Wire Line
 	2550 1650 2600 1650
-$Comp
-L CONN_COAXIAL J24
-U 1 1 5A626608
-P 2350 1400
-F 0 "J24" H 2360 1520 50  0000 C CNN
-F 1 "CONN_COAXIAL" V 2465 1400 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2350 1400 50  0001 C CNN
-F 3 "" H 2350 1400 50  0001 C CNN
-	1    2350 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR064
-U 1 1 5A62660E
-P 2600 1400
-F 0 "#PWR064" H 2600 1150 50  0001 C CNN
-F 1 "GND" H 2600 1250 50  0000 C CNN
-F 2 "" H 2600 1400 50  0001 C CNN
-F 3 "" H 2600 1400 50  0001 C CNN
-	1    2600 1400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2600 1400 2550 1400
-Wire Wire Line
-	2350 1550 2200 1550
-Wire Wire Line
-	2800 1500 2800 1750
 Wire Wire Line
 	2750 1750 2950 1750
 Wire Wire Line
-	2200 1550 2200 1800
-Wire Wire Line
-	2200 1800 2950 1800
-Wire Wire Line
 	2750 1900 2750 1750
-Connection ~ 2800 1750
 Wire Wire Line
 	2750 1850 2350 1850
 Wire Wire Line
@@ -1826,7 +1492,6 @@ Wire Wire Line
 Connection ~ 2750 1850
 Wire Wire Line
 	2950 1800 2950 1900
-Connection ~ 2350 1800
 Wire Wire Line
 	2550 1900 2550 1800
 Connection ~ 2550 1800
@@ -1837,7 +1502,15 @@ Wire Wire Line
 Wire Wire Line
 	2650 2600 2650 4150
 Wire Wire Line
-	7700 1850 8550 1850
-Text Notes 2150 1200 0    79   ~ 16
-HPF_Out
+	8550 1850 7700 1850
+Connection ~ 2350 1800
+Wire Wire Line
+	2350 1800 2950 1800
+Wire Wire Line
+	7950 1600 8100 1600
+Wire Wire Line
+	7950 1350 7950 1600
+Wire Wire Line
+	8100 1350 7950 1350
+Connection ~ 6200 3150
 $EndSCHEMATC

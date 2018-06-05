@@ -1,4 +1,4 @@
-update=06/01/2018 21:22:31
+update=14/05/2018 18:43:38
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,12 +29,12 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=conn
-LibName4=Libraries/inductance/l_cap
-LibName5=Libraries/Kemet_Relay/ee2-5nu
-LibName6=Libraries/Omron_G5LE/Omron_G5LE
+LibName1=Libraries/inductance/l_cap
+LibName2=Libraries/Kemet_Relay/ee2-5nu
+LibName3=Libraries/Omron_G5LE/Omron_G5LE
+LibName4=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Connector_Generic
+LibName5=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Device
+LibName6=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/power
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
