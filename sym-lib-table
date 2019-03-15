@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name RX_Ant-rescue)(type Legacy)(uri ${KIPRJMOD}/RX_Ant-rescue.lib)(options "")(descr ""))
+  (lib (name l_cap)(type Legacy)(uri ${KIPRJMOD}/Libraries/inductance/l_cap.lib)(options "")(descr ""))
+  (lib (name ee2-5nu)(type Legacy)(uri ${KIPRJMOD}/Libraries/Kemet_Relay/ee2-5nu.lib)(options "")(descr ""))
+  (lib (name Omron_G5LE)(type Legacy)(uri ${KIPRJMOD}/Libraries/Omron_G5LE/Omron_G5LE.lib)(options "")(descr ""))
+)

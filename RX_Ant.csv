@@ -1,9 +1,15 @@
-Ref,Qnty,Value,Footprint,Description,Vendor
-"C1, C5, C9, C3, C7, C11, C2, ",7,100n,Capacitors_SMD:C_0805_HandSoldering,Unpolarized capacitor,
-"C13, ",1,100n,Capacitors_SMD:C_0805_HandSoldering,Unpolarized capacitor,
-"J1, J3, J6, J8, J2, J5, J4, J9, J10, J15, J13, J37, ",12,CONN_COAXIAL,conn_rf:sma_straight_32k101-400l5,,
-"J12, ",1,CONN_01X05,conn_kk100:kk100_22-23-2051,"Generic connector, single row, 01x05",
-"J14, ",1,Conn_01x07,Connectors_Molex:Molex_KK-6410-07_07x2.54mm_Straight,"Generic connector, single row, 01x07",
-"L6, L7, L5, L3, L1, L2, L4, L8, ",8,L_cap,Ferrite_LC_NFM41P:Ferrite_LC_NFM41P,Inductor with decoupling cap.,
-"RL1, RL3, RL5, RL7, RL8, ",5,EC2-12NU,2_Form_C_Relay:THT_2_formC,Microminiature Polarised Dual Pole Relay,
-"RL6, RL4, RL2, ",3,Omron_G5LE,Omron_G5LE:Omron_G5LE,"Single Pole Relay, 5mm Pitch, 10A",
+"Source:","C:/Users/Marco/Documents/Kicad/Projets/Alexiares_Coax_Out/RX_Ant.sch"
+"Date:","20/09/2018 11:27:15"
+"Tool:","Eeschema 4.0.7"
+"Generator:","C:/Program Files/KiCad/bin/scripting/plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","47"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"C1, C5, C9, C3, C7, C11, C2, ","7","100n","C","Capacitors_SMD:C_0805_HandSoldering","",""
+"C13, ","1","100nC","C","Capacitors_SMD:C_0805_HandSoldering","",""
+"J1, J3, J6, J8, J2, J5, J4, J9, J10, J15, J32, J13, J37, ","13","CONN_COAXIAL","CONN_COAXIAL","conn_rf:sma_straight_32k101-400l5","",""
+"J12, ","1","CONN_01X05","CONN_01X05","conn_kk100:kk100_22-23-2051","",""
+"J14, ","1","Conn_01x07","Conn_01x07","Connectors_Molex:Molex_KK-6410-07_07x2.54mm_Straight","Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J16, J17, J18, J19, J20, J21, J22, J23, ","8","CONN_01X01","CONN_01X01","Mounting_Holes:MountingHole_3.5mm_Pad","",""
+"L6, L7, L5, L3, L1, L2, L4, L8, ","8","L_cap","L_cap","Ferrite_LC_NFM41P:Ferrite_LC_NFM41P","Inductor, small symbol",""
+"RL1, RL3, RL5, RL7, RL8, ","5","EC2-12NU","EC2-12NU","2_Form_C_Relay:THT_2_formC","Microminiature Polarised Dual Pole Relay",""
+"RL6, RL4, RL2, ","3","Omron_G5LE","Omron_G5LE","Omron_G5LE:Omron_G5LE","FINDER 40.51, Single Pole Relay, 5mm Pitch, 10A",""
